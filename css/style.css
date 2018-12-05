@@ -1,0 +1,188 @@
+/*........................ Global.............. */
+.common{
+	width: 100%;
+	background: #9CC6F2;
+	margin: 0px 0px 30px 0px;}
+.text_box{
+	height: 20px;
+	width: auto;
+	margin: 10px 10px 10px 10px;
+	font-weight: 700;
+}
+p{
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.box{
+	height: 50px;
+	width: auto;
+	background:#CEE2FB;
+	margin: 0px 10px 10px 10px;
+}
+
+
+/* ........................Header........................ */
+.header{
+	height: 100px;	
+}
+
+
+.box1 p{
+	padding-top: 10px;
+}
+/* ..........................Hero........................... */
+.hero{
+	height: 200px;
+}
+.box2 {
+	height: 150px;
+}
+
+.box2 p{
+	padding-top:60px;
+}
+
+.ad{
+	height: 200px;
+	background: #71A6D9;
+}
+
+.text_box p{
+	padding-top: 75px;
+}
+
+
+/* ..........................Body........................... */
+.body{
+	height: 400px;
+}
+.box3{
+	height: 340px;
+}
+.box3 p{
+	padding-top: 160px;
+}
+
+.box4{
+	height: 340px;
+}
+.box4 p{
+	padding-top: 160px;
+}
+
+/* ..........................Sidebar........................ */
+
+.sidebar{
+	height: 400px;
+}
+.box5{
+	height: 340px;
+}
+.box5 p{
+	padding-top: 160px;
+}
+/*....................... footer.................... */
+.footer{
+	height: 45px;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+ @media (max-width: 575.98px) {
+ 	.header{
+ 		height: 110px;
+ 	}
+ 	.box1{
+ 		height:25px;
+ 	}
+ 	.box1 p{
+ 		padding: 0;
+ 	}
+
+	.hero{
+		height: 90px;
+	}
+	.box2 {
+	height: 35px;
+	}
+	.box2 p{
+	padding-top:5px;
+	}
+
+	.body{
+		height: 300px;
+	}
+	.box3{
+	height: 35px;
+	}
+	.box3 p{
+		padding-top: 5px;
+	}
+	.box4{
+	height: 120px;
+	}
+	.box4 p{
+		padding-top: 40px;
+	}
+
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+
+ /*Medium devices (tablets, 768px and up)*/
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ 	.hero{
+ 		height: 210px;
+ 	}
+
+ 	.box2{
+ 		height: 75px;
+ 	}
+
+ 	.box2 p{
+		padding-top: 25px;
+	}
+	.body{
+		height: 475px;
+	}
+	.box3{
+		height: 150px;
+	}
+	.box3 p{
+		padding-top: 60px;
+	}
+
+	.box4{
+		height: 260px;
+	}
+	.box4 p{
+		padding-top: 115px;
+	}
+	.sidebar{
+		height: 125px;
+	}
+	.box5{
+		height: 70px;
+	}
+	.box5 p{
+		padding-top: 25px;
+	}
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+
+ @media (min-width: 1200px) {}
