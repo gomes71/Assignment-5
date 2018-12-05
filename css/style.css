@@ -89,6 +89,9 @@ p{
 	height: 45px;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MEDIA QUERRY>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MEDIA QUERRY>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MEDIA QUERRY>>>>>>>>>>>>>>>>>>>>>>> */
 
 /*Extra small devices (portrait phones, less than 576px)*/
 
@@ -114,7 +117,7 @@ p{
 	}
 
 	.body{
-		height: 300px;
+		height: 270px;
 	}
 	.box3{
 	height: 35px;
